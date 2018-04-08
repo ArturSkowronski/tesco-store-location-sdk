@@ -1,7 +1,7 @@
 const TescoStoreLocationClient = require('./tls-client')
 const StoreLocationQueryBuilder = require('./tls-query-builder')
 
-exports = {
+exports.SDK = {
     TescoStoreLocationClient,
     StoreLocationQueryBuilder
 }

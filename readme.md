@@ -8,7 +8,7 @@ Highly Experimental Client that can be subject of changes. Use on own risk!
 ## How to use
 
 ```js
-const {TescoStoreLocationClient, StoreLocationQueryBuilder} = require('tesco-store-location-sdk')
+const {TescoStoreLocationClient, StoreLocationQueryBuilder} = require('tesco-store-location-sdk').SDK
 
 const queryBuilder = new StoreLocationQueryBuilder();
 
