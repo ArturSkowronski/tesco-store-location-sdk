@@ -20,6 +20,7 @@ module.exports = class StoreLocationQueryBuilder {
 
       category(category) {
         this.filter.push(`category:${category}`)
+        return this;
       }
 
       locationName(name) {

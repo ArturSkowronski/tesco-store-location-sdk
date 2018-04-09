@@ -18,7 +18,7 @@ TescoStoreLocationClient
     .instance(subscriptionKey)
     .searchLocations(queryBuilder.ukTown("Welwyn Garden City").build())
     .then((result) => {
-        console.log(result.results[0])
+        console.log(result)
     })
     .catch((err) => {
         console.error(err)
